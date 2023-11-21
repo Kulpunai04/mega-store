@@ -12,7 +12,7 @@ body{
 
 .title{
     display: flex;
-    width: 580px;
+    width: 638px;
     height: 25px;
     flex-direction: column;
     justify-content: center;
@@ -25,16 +25,22 @@ body{
     font-weight: 600;
     line-height: normal;
   }
-.p{
+.code-text{
     font-size: 14px;
-    color:#000000;
+    color: #A9A9A9;
     font-weight: 400;
+    text-align: center;
 }
 
 .field{
+    display: flex;
     color:#A9A9A9;
     text-align: center;
+    justify-content: center;
+    gap: 8px;
+    
 }
+
 .input-text{
     display: flex;
     justify-content: center;
@@ -71,6 +77,7 @@ body{
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.2s;
+    margin-left: 115px;
 }
 
 .services{

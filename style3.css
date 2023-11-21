@@ -5,6 +5,14 @@
   align-items: center;
   flex-flow: row wrap;
 }
+.services_item{
+  width: 664px;
+  height: 608px;
+  border-radius: 8px ;
+  padding: 10px 25px;
+  background: white;
+  flex-shrink: 0;
+}
 
 .title{
   display: flex;
@@ -20,6 +28,9 @@
   font-weight: 600;
   line-height: normal;
 }
+.text_content h3,p{
+  font-family: 'Sora', sans-serif;
+}
   .get-btn{
     width: 384px;
     height: 48px;
@@ -27,99 +38,117 @@
     border-radius: 4px;
     background: #232529;
     color: #fff;
+    position: relative;
+    left: 0;
+    top: -310px;
+    margin-left: 115px;
   }
 
-
-  .text_content h3{
-    font-family: 'Sora', sans-serif;
-  }
-
-
-  .text_content p{
-    display: flex;
-    width: 214px;
-    height: 16px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #000;
-    font-family: Sora;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-family: 'Sora', sans-serif;
   
-  }
-
- .services_item{
-  width: 664px;
-  height: 576px;
-  border-radius: 8px ;
-  padding: 10px 25px;
-  background: white;
-  flex-shrink: 0;
-}
-
-.inp{
-  width: 616px;
-  height: 48px;
-  flex-shrink: 0;
-  display: flex;
-}
-
-.edit {
-    width: 408px;
-    height: 48px;
-    flex-shrink: 0;
-    flex-shrink: 0;
-    border-radius: 8px;
-    border: 0.5px solid #AEAEAE;
-    opacity: 0.5;
-    position: absolute;
-    left: 520px;
-    top: 212px;
-}
-.inp1{
-  
-}
-
-.svg{
-width: 24px;
-height: 24px;
-flex-shrink: 0;
-}
-
-.edit1{
+  .edit1{
   width: 408px;
   height: 48px;
-  flex-shrink: 0;
-  flex-shrink: 0;
   border-radius: 8px;
   border: 0.5px solid #AEAEAE;
   opacity: 0.5;
-  position: absolute;
-  left:520px;
-  top: 212px;
-}
-
-.inp2, .inp3{
-  display: flex;
-  top: 50px;
-}
-
+ }
 .edit2{
-  width: 416px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 8px;
-border: 0.5px solid #AEAEAE;
-opacity: 0.5;
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 424px;
+  top: -69px;
+}
+.edit3{
+  width: 304px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 0px;
+  top: -67px;
+}
+.edit4{
+  width: 304px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 322px;
+  top: -134px;
+}
+.container{
+  position: relative;
+  left: 0px;
+  top: -131px;
+}
+.edit5{
+  width: 625px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+}
+.edit6{
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
 
 }
-.svg1{
-width: 24px;
-height: 24px;
-transform: rotate(90deg);
-flex-shrink: 0;
+.edit7{
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 214px;
+  top: -68px;
+}
+.edit8{
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 427px;
+  top: -135px;
+}
+.edit9{
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 0;
+  top: -136px;
+}
+.edit10{
+  width: 200px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 215px;
+  top: -204px;
+}
+.edit11{
+  width: 625px;
+  height: 48px;
+  border-radius: 8px;
+  border: 0.5px solid #AEAEAE;
+  opacity: 0.5;
+  position: relative;
+  left: 0;
+  top: -200px;
 }
